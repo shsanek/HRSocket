@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		96F41E2A6F7808F585F834F3 /* libPods-EchoServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 65956B757544D7953FD36CA6 /* libPods-EchoServer.a */; };
+		E504B63D19AFDBAAE6D11D1A /* libPods-EchoClient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 35957D776DEA791DA3C6555E /* libPods-EchoClient.a */; };
+		E8ECAC9E1C8ADB8200945EC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8ECAC9D1C8ADB8200945EC2 /* main.m */; };
+		E8ECACD11C8AE45100945EC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8ECACD01C8AE45100945EC2 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E8ECAC981C8ADB8200945EC2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		E8ECACCC1C8AE45100945EC2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0786759F6FFA83159D91D627 /* Pods-EchoServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EchoServer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EchoServer/Pods-EchoServer.debug.xcconfig"; sourceTree = "<group>"; };
+		23AC08A58D08170B121461A2 /* Pods-EchoServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EchoServer.release.xcconfig"; path = "Pods/Target Support Files/Pods-EchoServer/Pods-EchoServer.release.xcconfig"; sourceTree = "<group>"; };
+		35957D776DEA791DA3C6555E /* libPods-EchoClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EchoClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65956B757544D7953FD36CA6 /* libPods-EchoServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EchoServer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88587A403B3F2E0DFF470C3A /* Pods-EchoClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EchoClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EchoClient/Pods-EchoClient.debug.xcconfig"; sourceTree = "<group>"; };
+		E8ECAC9A1C8ADB8200945EC2 /* EchoServer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EchoServer; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8ECAC9D1C8ADB8200945EC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8ECACBD1C8AE3D800945EC2 /* EchoClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EchoClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8ECACCE1C8AE45100945EC2 /* EchoClient */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EchoClient; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8ECACD01C8AE45100945EC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDE52D9FEC4BD4931FD0088C /* Pods-EchoClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EchoClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-EchoClient/Pods-EchoClient.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8ECAC971C8ADB8200945EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F41E2A6F7808F585F834F3 /* libPods-EchoServer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8ECACBA1C8AE3D800945EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8ECACCB1C8AE45100945EC2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E504B63D19AFDBAAE6D11D1A /* libPods-EchoClient.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76F127B2113F4E32C59047BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0786759F6FFA83159D91D627 /* Pods-EchoServer.debug.xcconfig */,
+				23AC08A58D08170B121461A2 /* Pods-EchoServer.release.xcconfig */,
+				88587A403B3F2E0DFF470C3A /* Pods-EchoClient.debug.xcconfig */,
+				EDE52D9FEC4BD4931FD0088C /* Pods-EchoClient.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D2554C346718195D63A7EDE7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65956B757544D7953FD36CA6 /* libPods-EchoServer.a */,
+				35957D776DEA791DA3C6555E /* libPods-EchoClient.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8ECAC911C8ADB8200945EC2 = {
+			isa = PBXGroup;
+			children = (
+				E8ECAC9C1C8ADB8200945EC2 /* EchoServer */,
+				E8ECACCF1C8AE45100945EC2 /* EchoClient */,
+				E8ECAC9B1C8ADB8200945EC2 /* Products */,
+				76F127B2113F4E32C59047BD /* Pods */,
+				D2554C346718195D63A7EDE7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E8ECAC9B1C8ADB8200945EC2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8ECAC9A1C8ADB8200945EC2 /* EchoServer */,
+				E8ECACBD1C8AE3D800945EC2 /* EchoClientTests.xctest */,
+				E8ECACCE1C8AE45100945EC2 /* EchoClient */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8ECAC9C1C8ADB8200945EC2 /* EchoServer */ = {
+			isa = PBXGroup;
+			children = (
+				E8ECAC9D1C8ADB8200945EC2 /* main.m */,
+			);
+			path = EchoServer;
+			sourceTree = "<group>";
+		};
+		E8ECACCF1C8AE45100945EC2 /* EchoClient */ = {
+			isa = PBXGroup;
+			children = (
+				E8ECACD01C8AE45100945EC2 /* main.m */,
+			);
+			path = EchoClient;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8ECAC991C8ADB8200945EC2 /* EchoServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8ECACA11C8ADB8200945EC2 /* Build configuration list for PBXNativeTarget "EchoServer" */;
+			buildPhases = (
+				ACAB192BF99E588585D81A25 /* Check Pods Manifest.lock */,
+				E8ECAC961C8ADB8200945EC2 /* Sources */,
+				E8ECAC971C8ADB8200945EC2 /* Frameworks */,
+				E8ECAC981C8ADB8200945EC2 /* CopyFiles */,
+				6A41255753EEF69EC165684E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EchoServer;
+			productName = EchoServer;
+			productReference = E8ECAC9A1C8ADB8200945EC2 /* EchoServer */;
+			productType = "com.apple.product-type.tool";
+		};
+		E8ECACBC1C8AE3D800945EC2 /* EchoClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8ECACC91C8AE3D800945EC2 /* Build configuration list for PBXNativeTarget "EchoClientTests" */;
+			buildPhases = (
+				E8ECACB91C8AE3D800945EC2 /* Sources */,
+				E8ECACBA1C8AE3D800945EC2 /* Frameworks */,
+				E8ECACBB1C8AE3D800945EC2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EchoClientTests;
+			productName = EchoClientTests;
+			productReference = E8ECACBD1C8AE3D800945EC2 /* EchoClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E8ECACCD1C8AE45100945EC2 /* EchoClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E8ECACD21C8AE45100945EC2 /* Build configuration list for PBXNativeTarget "EchoClient" */;
+			buildPhases = (
+				FC688277FB574CE8C804528A /* Check Pods Manifest.lock */,
+				E8ECACCA1C8AE45100945EC2 /* Sources */,
+				E8ECACCB1C8AE45100945EC2 /* Frameworks */,
+				E8ECACCC1C8AE45100945EC2 /* CopyFiles */,
+				206EE91BA0F6D580D92DCBC8 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EchoClient;
+			productName = EchoClient;
+			productReference = E8ECACCE1C8AE45100945EC2 /* EchoClient */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8ECAC921C8ADB8200945EC2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Alexander Shipin";
+				TargetAttributes = {
+					E8ECAC991C8ADB8200945EC2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					E8ECACBC1C8AE3D800945EC2 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = E8ECACA71C8AE3D700945EC2;
+					};
+					E8ECACCD1C8AE45100945EC2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = E8ECAC951C8ADB8200945EC2 /* Build configuration list for PBXProject "EchoServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8ECAC911C8ADB8200945EC2;
+			productRefGroup = E8ECAC9B1C8ADB8200945EC2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8ECAC991C8ADB8200945EC2 /* EchoServer */,
+				E8ECACBC1C8AE3D800945EC2 /* EchoClientTests */,
+				E8ECACCD1C8AE45100945EC2 /* EchoClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8ECACBB1C8AE3D800945EC2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		206EE91BA0F6D580D92DCBC8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EchoClient/Pods-EchoClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A41255753EEF69EC165684E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EchoServer/Pods-EchoServer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACAB192BF99E588585D81A25 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC688277FB574CE8C804528A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8ECAC961C8ADB8200945EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8ECAC9E1C8ADB8200945EC2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8ECACB91C8AE3D800945EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8ECACCA1C8AE45100945EC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8ECACD11C8AE45100945EC2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E8ECAC9F1C8ADB8200945EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E8ECACA01C8ADB8200945EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E8ECACA21C8ADB8200945EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0786759F6FFA83159D91D627 /* Pods-EchoServer.debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E8ECACA31C8ADB8200945EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23AC08A58D08170B121461A2 /* Pods-EchoServer.release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E8ECACC61C8AE3D800945EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EchoClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alexander.shipin.EchoClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EchoClient.app/Contents/MacOS/EchoClient";
+			};
+			name = Debug;
+		};
+		E8ECACC71C8AE3D800945EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = EchoClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = alexander.shipin.EchoClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EchoClient.app/Contents/MacOS/EchoClient";
+			};
+			name = Release;
+		};
+		E8ECACD31C8AE45100945EC2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88587A403B3F2E0DFF470C3A /* Pods-EchoClient.debug.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E8ECACD41C8AE45100945EC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDE52D9FEC4BD4931FD0088C /* Pods-EchoClient.release.xcconfig */;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8ECAC951C8ADB8200945EC2 /* Build configuration list for PBXProject "EchoServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8ECAC9F1C8ADB8200945EC2 /* Debug */,
+				E8ECACA01C8ADB8200945EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8ECACA11C8ADB8200945EC2 /* Build configuration list for PBXNativeTarget "EchoServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8ECACA21C8ADB8200945EC2 /* Debug */,
+				E8ECACA31C8ADB8200945EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8ECACC91C8AE3D800945EC2 /* Build configuration list for PBXNativeTarget "EchoClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8ECACC61C8AE3D800945EC2 /* Debug */,
+				E8ECACC71C8AE3D800945EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E8ECACD21C8AE45100945EC2 /* Build configuration list for PBXNativeTarget "EchoClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8ECACD31C8AE45100945EC2 /* Debug */,
+				E8ECACD41C8AE45100945EC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8ECAC921C8ADB8200945EC2 /* Project object */;
+}

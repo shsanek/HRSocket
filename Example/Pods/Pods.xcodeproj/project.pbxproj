@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0160ADFAB9114C10B86AB9C9F05B03F0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
+		30CF0CE4F32B8A278338A072A27A2122 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
+		4078F0C63F8CC052C0E69ADFED58D5BB /* HRClientSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = AAA045B87DFDE2A775363EAEB1C80200 /* HRClientSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		481C61A6CB37983D02C71E4981CE6E43 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */; };
+		4BB08D7D043A73322F00A32A298763ED /* HRQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0EE77B183496FAAAAA017F597E9AAD /* HRQueue.m */; };
+		55A59947E5047E92BA41ADDEC55F74F1 /* HRSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 5728F14B987D54553CCDDED38FDA7918 /* HRSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6082537373FFEAFDB46C6C67E818ACB0 /* HRQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0DD47BB548AECA01ED23117070C1BE /* HRQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66C5D7F4BBE3F032975DA7AC7BDFDCA3 /* HRClientSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C280D4B12E4B2C4FA4DB7D7B22974DDD /* HRClientSocket.m */; };
+		74004C569907022147F77C809A1FEFBE /* HRSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 20E1B487FB6FD956753E1537CDEB974A /* HRSocket.m */; };
+		8B0428DAEDD098E8790C5AC67F17DA7F /* HRServerSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = DE879290BEB46F227E53E61653E31C83 /* HRServerSocket.m */; };
+		939D3E0CCBE100615D56277459DF562E /* Pods-EchoServer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 448CC28DB60C5ADE5CD96A03F4A1EA7E /* Pods-EchoServer-dummy.m */; };
+		ADD2E2DF0AD2AE812C2E02DC6E36D703 /* Pods-EchoClient-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DE32B6513D667EC7A98A98DC13D9608 /* Pods-EchoClient-dummy.m */; };
+		CB58379000D5818942D5EBD28725A842 /* HRSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC42E96C29E6DA9F9C27BEB99471950 /* HRSocket-dummy.m */; };
+		D57125DD614A55E0E427BFE399D1584F /* HRServerSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FD6D7053E78C21AE8C34D1C6FC4C0DF /* HRServerSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C72F59E063F8C578915DDED698DD8B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4571322E221B80AD0E46DB4AF9DE4142;
+			remoteInfo = HRSocket;
+		};
+		A0CEF46194ABCD6F1FA14A5F76E3F32C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4571322E221B80AD0E46DB4AF9DE4142;
+			remoteInfo = HRSocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0408A9A0E352182CA15FF6E6149BC2C0 /* Pods-EchoServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EchoServer.debug.xcconfig"; sourceTree = "<group>"; };
+		07D386E282C165206822F0DF693549AB /* Pods-EchoServer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EchoServer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C0DD47BB548AECA01ED23117070C1BE /* HRQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HRQueue.h; sourceTree = "<group>"; };
+		1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.11.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		20E1B487FB6FD956753E1537CDEB974A /* HRSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HRSocket.m; sourceTree = "<group>"; };
+		285AFBF7A9AE135543D8298742624BC2 /* libPods-EchoClient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EchoClient.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		286F69759F1B28221ACD2EE95CF889D9 /* Pods-EchoServer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EchoServer-frameworks.sh"; sourceTree = "<group>"; };
+		2FD6D7053E78C21AE8C34D1C6FC4C0DF /* HRServerSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HRServerSocket.h; sourceTree = "<group>"; };
+		3D0EE77B183496FAAAAA017F597E9AAD /* HRQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HRQueue.m; sourceTree = "<group>"; };
+		423DDA1CAB116E03B2611D36B8C7C3F6 /* Pods-EchoClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EchoClient.debug.xcconfig"; sourceTree = "<group>"; };
+		448CC28DB60C5ADE5CD96A03F4A1EA7E /* Pods-EchoServer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EchoServer-dummy.m"; sourceTree = "<group>"; };
+		5022ADCB86F60E8BEB0EB04BA5EEED71 /* HRSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HRSocket-prefix.pch"; sourceTree = "<group>"; };
+		5728F14B987D54553CCDDED38FDA7918 /* HRSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HRSocket.h; sourceTree = "<group>"; };
+		6DE32B6513D667EC7A98A98DC13D9608 /* Pods-EchoClient-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EchoClient-dummy.m"; sourceTree = "<group>"; };
+		7102C242F9F2DB2D519D7525395CD482 /* Pods-EchoClient-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EchoClient-acknowledgements.plist"; sourceTree = "<group>"; };
+		7CBF30F6E5144203B595E5DDEE149BDB /* Pods-EchoServer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EchoServer-resources.sh"; sourceTree = "<group>"; };
+		7D1AE8D0250DBDABE3519CBC47A24D6A /* Pods-EchoClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EchoClient.release.xcconfig"; sourceTree = "<group>"; };
+		83D0817AD6C6A9039A490B30EE798819 /* Pods-EchoServer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EchoServer-acknowledgements.plist"; sourceTree = "<group>"; };
+		8C63EC91C2C4D9EECB6993A911D0C724 /* Pods-EchoClient-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EchoClient-frameworks.sh"; sourceTree = "<group>"; };
+		9AC42E96C29E6DA9F9C27BEB99471950 /* HRSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HRSocket-dummy.m"; sourceTree = "<group>"; };
+		AAA045B87DFDE2A775363EAEB1C80200 /* HRClientSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = HRClientSocket.h; sourceTree = "<group>"; };
+		B22B22D18D241FC58C92CAFFCB44817F /* libHRSocket.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libHRSocket.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B72DAFA73F2F8E5FD83040A2BE0AA2B6 /* Pods-EchoServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EchoServer.release.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C280D4B12E4B2C4FA4DB7D7B22974DDD /* HRClientSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HRClientSocket.m; sourceTree = "<group>"; };
+		CA98D439AB411C98B3220744A6B8660B /* Pods-EchoClient-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EchoClient-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CFB6351A1D7DB7FD46155CDF77AD6C4D /* libPods-EchoServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EchoServer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25B4667C456DA0811BBC6271597879B /* Pods-EchoClient-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EchoClient-resources.sh"; sourceTree = "<group>"; };
+		DE879290BEB46F227E53E61653E31C83 /* HRServerSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HRServerSocket.m; sourceTree = "<group>"; };
+		FC565A29074E23000A69684AA036BD0E /* HRSocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HRSocket.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1BC1D4214856E1D0B9264002EF467C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CF0CE4F32B8A278338A072A27A2122 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A1F57364C1518F073A397ECDC0B7BCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0160ADFAB9114C10B86AB9C9F05B03F0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AA2FD0B345F7F6AE24DDA87252E605B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				481C61A6CB37983D02C71E4981CE6E43 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28C17CEF104526ACA07B6EEE217EC43E /* OS X */ = {
+			isa = PBXGroup;
+			children = (
+				1CA6EBC2E57D96052268211209D6AA52 /* Cocoa.framework */,
+			);
+			name = "OS X";
+			sourceTree = "<group>";
+		};
+		39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28C17CEF104526ACA07B6EEE217EC43E /* OS X */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5228BABD4147FC493450971147750A31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B22B22D18D241FC58C92CAFFCB44817F /* libHRSocket.a */,
+				285AFBF7A9AE135543D8298742624BC2 /* libPods-EchoClient.a */,
+				CFB6351A1D7DB7FD46155CDF77AD6C4D /* libPods-EchoServer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6D1FD32D6EDC130834EDF716C98A5725 /* Pods-EchoClient */ = {
+			isa = PBXGroup;
+			children = (
+				CA98D439AB411C98B3220744A6B8660B /* Pods-EchoClient-acknowledgements.markdown */,
+				7102C242F9F2DB2D519D7525395CD482 /* Pods-EchoClient-acknowledgements.plist */,
+				6DE32B6513D667EC7A98A98DC13D9608 /* Pods-EchoClient-dummy.m */,
+				8C63EC91C2C4D9EECB6993A911D0C724 /* Pods-EchoClient-frameworks.sh */,
+				D25B4667C456DA0811BBC6271597879B /* Pods-EchoClient-resources.sh */,
+				423DDA1CAB116E03B2611D36B8C7C3F6 /* Pods-EchoClient.debug.xcconfig */,
+				7D1AE8D0250DBDABE3519CBC47A24D6A /* Pods-EchoClient.release.xcconfig */,
+			);
+			name = "Pods-EchoClient";
+			path = "Target Support Files/Pods-EchoClient";
+			sourceTree = "<group>";
+		};
+		70DC60EBF4136BA125807C622E5B84A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC565A29074E23000A69684AA036BD0E /* HRSocket.xcconfig */,
+				9AC42E96C29E6DA9F9C27BEB99471950 /* HRSocket-dummy.m */,
+				5022ADCB86F60E8BEB0EB04BA5EEED71 /* HRSocket-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HRSocket";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				B6E6643545F5B364ACA3921A53ED4F06 /* Development Pods */,
+				39E9EE8210D861DFD82346C1F5EB7218 /* Frameworks */,
+				5228BABD4147FC493450971147750A31 /* Products */,
+				C7DC2ABEF7618CCC3F06D943DF38F731 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		953034E423BB123A7EF19C5DF589C71C /* HRSocket */ = {
+			isa = PBXGroup;
+			children = (
+				A7D29E6F1A96116198B0414E3BC7E419 /* HRSocket */,
+				70DC60EBF4136BA125807C622E5B84A7 /* Support Files */,
+			);
+			name = HRSocket;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A7D29E6F1A96116198B0414E3BC7E419 /* HRSocket */ = {
+			isa = PBXGroup;
+			children = (
+				AAA045B87DFDE2A775363EAEB1C80200 /* HRClientSocket.h */,
+				C280D4B12E4B2C4FA4DB7D7B22974DDD /* HRClientSocket.m */,
+				0C0DD47BB548AECA01ED23117070C1BE /* HRQueue.h */,
+				3D0EE77B183496FAAAAA017F597E9AAD /* HRQueue.m */,
+				2FD6D7053E78C21AE8C34D1C6FC4C0DF /* HRServerSocket.h */,
+				DE879290BEB46F227E53E61653E31C83 /* HRServerSocket.m */,
+				5728F14B987D54553CCDDED38FDA7918 /* HRSocket.h */,
+				20E1B487FB6FD956753E1537CDEB974A /* HRSocket.m */,
+			);
+			path = HRSocket;
+			sourceTree = "<group>";
+		};
+		A88FED9FDB975471E28550DA5B847B84 /* Pods-EchoServer */ = {
+			isa = PBXGroup;
+			children = (
+				07D386E282C165206822F0DF693549AB /* Pods-EchoServer-acknowledgements.markdown */,
+				83D0817AD6C6A9039A490B30EE798819 /* Pods-EchoServer-acknowledgements.plist */,
+				448CC28DB60C5ADE5CD96A03F4A1EA7E /* Pods-EchoServer-dummy.m */,
+				286F69759F1B28221ACD2EE95CF889D9 /* Pods-EchoServer-frameworks.sh */,
+				7CBF30F6E5144203B595E5DDEE149BDB /* Pods-EchoServer-resources.sh */,
+				0408A9A0E352182CA15FF6E6149BC2C0 /* Pods-EchoServer.debug.xcconfig */,
+				B72DAFA73F2F8E5FD83040A2BE0AA2B6 /* Pods-EchoServer.release.xcconfig */,
+			);
+			name = "Pods-EchoServer";
+			path = "Target Support Files/Pods-EchoServer";
+			sourceTree = "<group>";
+		};
+		B6E6643545F5B364ACA3921A53ED4F06 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				953034E423BB123A7EF19C5DF589C71C /* HRSocket */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C7DC2ABEF7618CCC3F06D943DF38F731 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6D1FD32D6EDC130834EDF716C98A5725 /* Pods-EchoClient */,
+				A88FED9FDB975471E28550DA5B847B84 /* Pods-EchoServer */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		9437375C9719A0F74276A8837881FD2C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4078F0C63F8CC052C0E69ADFED58D5BB /* HRClientSocket.h in Headers */,
+				6082537373FFEAFDB46C6C67E818ACB0 /* HRQueue.h in Headers */,
+				D57125DD614A55E0E427BFE399D1584F /* HRServerSocket.h in Headers */,
+				55A59947E5047E92BA41ADDEC55F74F1 /* HRSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B75DE65477E70CD83D79EE7F4A7F4E7 /* Pods-EchoClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B474562EF941A5927582002BC50FCE8 /* Build configuration list for PBXNativeTarget "Pods-EchoClient" */;
+			buildPhases = (
+				CA567EE49C0EA4758CF66D23B4695005 /* Sources */,
+				6A1F57364C1518F073A397ECDC0B7BCB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4124B7F46185BD07CD89F413E4E1C32 /* PBXTargetDependency */,
+			);
+			name = "Pods-EchoClient";
+			productName = "Pods-EchoClient";
+			productReference = 285AFBF7A9AE135543D8298742624BC2 /* libPods-EchoClient.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4571322E221B80AD0E46DB4AF9DE4142 /* HRSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99A6385F18B1B415307866DE2E6B0FF7 /* Build configuration list for PBXNativeTarget "HRSocket" */;
+			buildPhases = (
+				3F7150A0A62920523D6D0F6FDE9AEBD0 /* Sources */,
+				8AA2FD0B345F7F6AE24DDA87252E605B /* Frameworks */,
+				9437375C9719A0F74276A8837881FD2C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HRSocket;
+			productName = HRSocket;
+			productReference = B22B22D18D241FC58C92CAFFCB44817F /* libHRSocket.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		72DB518535AA7E9A3CBD9FA6BC782B5D /* Pods-EchoServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CA327F230E95B41C8B0A457825542F6 /* Build configuration list for PBXNativeTarget "Pods-EchoServer" */;
+			buildPhases = (
+				FC593206795470B56A0BA075C6A06DDE /* Sources */,
+				1BC1D4214856E1D0B9264002EF467C9D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B34E21BF9731F109C0CD8E905130680D /* PBXTargetDependency */,
+			);
+			name = "Pods-EchoServer";
+			productName = "Pods-EchoServer";
+			productReference = CFB6351A1D7DB7FD46155CDF77AD6C4D /* libPods-EchoServer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 5228BABD4147FC493450971147750A31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4571322E221B80AD0E46DB4AF9DE4142 /* HRSocket */,
+				3B75DE65477E70CD83D79EE7F4A7F4E7 /* Pods-EchoClient */,
+				72DB518535AA7E9A3CBD9FA6BC782B5D /* Pods-EchoServer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F7150A0A62920523D6D0F6FDE9AEBD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C5D7F4BBE3F032975DA7AC7BDFDCA3 /* HRClientSocket.m in Sources */,
+				4BB08D7D043A73322F00A32A298763ED /* HRQueue.m in Sources */,
+				8B0428DAEDD098E8790C5AC67F17DA7F /* HRServerSocket.m in Sources */,
+				CB58379000D5818942D5EBD28725A842 /* HRSocket-dummy.m in Sources */,
+				74004C569907022147F77C809A1FEFBE /* HRSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA567EE49C0EA4758CF66D23B4695005 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD2E2DF0AD2AE812C2E02DC6E36D703 /* Pods-EchoClient-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC593206795470B56A0BA075C6A06DDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				939D3E0CCBE100615D56277459DF562E /* Pods-EchoServer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B34E21BF9731F109C0CD8E905130680D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HRSocket;
+			target = 4571322E221B80AD0E46DB4AF9DE4142 /* HRSocket */;
+			targetProxy = A0CEF46194ABCD6F1FA14A5F76E3F32C /* PBXContainerItemProxy */;
+		};
+		B4124B7F46185BD07CD89F413E4E1C32 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HRSocket;
+			target = 4571322E221B80AD0E46DB4AF9DE4142 /* HRSocket */;
+			targetProxy = 7C72F59E063F8C578915DDED698DD8B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10B2EE21B5D67EE2C819831CCC43832B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		558B79E9B9C3D12BEE9BA76527AE92FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 423DDA1CAB116E03B2611D36B8C7C3F6 /* Pods-EchoClient.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		56C56B11282EF18929C3FFA549F2CD3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D1AE8D0250DBDABE3519CBC47A24D6A /* Pods-EchoClient.release.xcconfig */;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7C07D96CC7C445E83983A6C6420BC692 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		827BAD7494EFF63BC9836D99AD529F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B72DAFA73F2F8E5FD83040A2BE0AA2B6 /* Pods-EchoServer.release.xcconfig */;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		968A6F2F9534C4AA10C5355137EF7744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC565A29074E23000A69684AA036BD0E /* HRSocket.xcconfig */;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/HRSocket/HRSocket-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B8AD1981F79548A920CC6960FFC8CEEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0408A9A0E352182CA15FF6E6149BC2C0 /* Pods-EchoServer.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DC96D5813D985C6B2A307537AA61C394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC565A29074E23000A69684AA036BD0E /* HRSocket.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREFIX_HEADER = "Target Support Files/HRSocket/HRSocket-prefix.pch";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10B2EE21B5D67EE2C819831CCC43832B /* Debug */,
+				7C07D96CC7C445E83983A6C6420BC692 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B474562EF941A5927582002BC50FCE8 /* Build configuration list for PBXNativeTarget "Pods-EchoClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				558B79E9B9C3D12BEE9BA76527AE92FB /* Debug */,
+				56C56B11282EF18929C3FFA549F2CD3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6CA327F230E95B41C8B0A457825542F6 /* Build configuration list for PBXNativeTarget "Pods-EchoServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8AD1981F79548A920CC6960FFC8CEEB /* Debug */,
+				827BAD7494EFF63BC9836D99AD529F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99A6385F18B1B415307866DE2E6B0FF7 /* Build configuration list for PBXNativeTarget "HRSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC96D5813D985C6B2A307537AA61C394 /* Debug */,
+				968A6F2F9534C4AA10C5355137EF7744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

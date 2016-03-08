@@ -1,0 +1,14 @@
+PODS:
+  - HRSocket (0.1.0)
+
+DEPENDENCIES:
+  - HRSocket (from `../`)
+
+EXTERNAL SOURCES:
+  HRSocket:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HRSocket: 1b084ec9d5bd66cc42a848cec624ecf28a457f71
+
+COCOAPODS: 0.39.0
