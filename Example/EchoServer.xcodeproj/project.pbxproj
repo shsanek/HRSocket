@@ -456,6 +456,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 88587A403B3F2E0DFF470C3A /* Pods-EchoClient.debug.xcconfig */;
 			buildSettings = {
+				INFOPLIST_FILE = LOG_SERVER_IP_ADDRES.plist;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/HRSocket\"",
+					"-DSERVER_IP=\"$(EXPORT_SERVER_IP)\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -464,6 +473,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = EDE52D9FEC4BD4931FD0088C /* Pods-EchoClient.release.xcconfig */;
 			buildSettings = {
+				INFOPLIST_FILE = LOG_SERVER_IP_ADDRES.plist;
+				OTHER_CFLAGS = (
+					"$(inherited)",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"-isystem",
+					"\"${PODS_ROOT}/Headers/Public/HRSocket\"",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

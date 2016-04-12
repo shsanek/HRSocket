@@ -20,6 +20,19 @@
 
 @implementation HRClientSocket
 
+- (u_int32_t) ipFromString:(NSString*) string{
+    NSArray* component = [ string componentsSeparatedByString:@"."];
+    NSAssert(component.count == 4, @"incorect ip addres");
+    u_char result[4] = {0,0,0,0};
+    int i = 0;
+    for (NSString* com in component){
+        NSInteger a = [com integerValue];
+        result[i] = a;
+    }
+    u_int32_t numberResult = (u_int32_t)(result);
+    return numberResult;
+}
+
 - (void) connectIP:(NSString*) ip port:(NSInteger) port{
     if (self.socket < 0){
         return;
@@ -27,7 +40,11 @@
     struct sockaddr_in addr;
     addr.sin_family = AF_INET;
     addr.sin_port = htons(port);
-    addr.sin_addr.s_addr = htonl(INADDR_LOOPBACK);
+    if (!ip) {
+        addr.sin_addr.s_addr = htonl(INADDR_LOOPBACK);
+    } else {
+        addr.sin_addr.s_addr = htonl([self ipFromString:ip]);
+    }
     if (connect(self.socket, (struct sockaddr *)&addr, sizeof(addr)) < 0) {
         NSLog(@"content error");
         self.isValid = NO;

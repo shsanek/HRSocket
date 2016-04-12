@@ -9,6 +9,8 @@
 #import <Foundation/Foundation.h>
 
 #import <HRSocket/HRClientSocket.h>
+#define xstr(s) str(s)
+#define str(s) @#s
 
 
 @interface ChatController : NSObject<HRSocketDelegate>
