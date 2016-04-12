@@ -23,13 +23,14 @@
 - (u_int32_t) ipFromString:(NSString*) string{
     NSArray* component = [ string componentsSeparatedByString:@"."];
     NSAssert(component.count == 4, @"incorect ip addres");
-    u_char result[4] = {0,0,0,0};
+    u_int8_t result[4] = {0,0,0,0};
     int i = 0;
     for (NSString* com in component){
         NSInteger a = [com integerValue];
         result[i] = a;
+        i++;
     }
-    u_int32_t numberResult = (u_int32_t)(result);
+    u_int32_t numberResult = result[0] * 256 * 256 * 256 + result[1] * 256 * 256 + result[2] * 256 + result[3];
     return numberResult;
 }
 
