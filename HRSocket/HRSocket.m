@@ -138,4 +138,8 @@
     }];
 }
 
+- (void)close{
+    close(self.socket);
+}
+
 @end

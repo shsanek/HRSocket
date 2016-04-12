@@ -31,6 +31,7 @@
 
 - (void) sendData:(NSData*) data completionBloack:(void (^)(BOOL isFinish)) completionBloack;
 - (void) recivSoketCompletionBlock:(void (^)(NSData* data)) completionBlock;
+- (void) close;
 
 @end
 
