@@ -30,7 +30,11 @@
         result[i] = a;
         i++;
     }
-    u_int32_t numberResult = result[0] * 256 * 256 * 256 + result[1] * 256 * 256 + result[2] * 256 + result[3];
+    u_int32_t numberResult =
+        result[0] * 256 * 256 * 256 +
+        result[1] * 256 * 256 +
+        result[2] * 256 +
+        result[3];
     return numberResult;
 }
 
